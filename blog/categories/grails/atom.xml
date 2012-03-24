@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ramble on Prose]]></title>
-  <link href="http://basejump.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Grails | Ramble on Prose]]></title>
+  <link href="http://basejump.github.com/blog/categories/grails/atom.xml" rel="self"/>
   <link href="http://basejump.github.com/"/>
   <updated>2012-03-23T22:12:14-05:00</updated>
   <id>http://basejump.github.com/</id>

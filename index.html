@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Ramble on Prose</title>
+  <meta name="author" content="Joshua Burnett">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="This is my test blog post
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +25,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Ramble on Prose" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,9 +36,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Ramble on Prose</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>The universe is a big place, perhaps the biggest. - Kilgore Trout</h2>
   
 </hgroup>
 
@@ -65,6 +66,42 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/23/logging-exceptions-with-grails-executor-plugin/">Logging Exceptions With Grails Executor Plugin</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-23T18:35:00-05:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is my test blog post</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -74,12 +111,76 @@
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+  <p>My name is Joshua Burnett and this is my blog. 
+      I&#8217;m a father, entrepreneur, computer nerd, skydiver, basejumper and occasional goat herder. 
+      I am the president of <a href="http://www.9ci.com">9ci</a>. 
+      I believe in keeping things simple.
+      </p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/03/23/logging-exceptions-with-grails-executor-plugin/">Logging exceptions with Grails Executor plugin</a>
+      </li>
     
   </ul>
 </section>
 
+<section>
+  <h3>GitHub Repos - <a href="https://github.com/basejump">@basejump</a></h3>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <h3>GitHub Repos - <a href="https://github.com/9ci">@9ci</a></h3>
+  <ul id="gh_repos2">
+      <li class="loading">Status updating&#8230;</li>
+    </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'basejump',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+        github.showRepos({
+            user: '9ci',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos2'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("basejump", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/basejump" class="twitter-follow-button" data-show-count="false">Follow @basejump</a>
+  
+</section>
 
 
 
@@ -91,7 +192,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Your Name -
+  Copyright &copy; 2012 - Joshua Burnett -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
