@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Grails | Ramble on Prose]]></title>
   <link href="http://basejump.github.com/blog/categories/grails/atom.xml" rel="self"/>
   <link href="http://basejump.github.com/"/>
-  <updated>2012-03-24T01:36:37-05:00</updated>
+  <updated>2012-03-24T02:26:08-05:00</updated>
   <id>http://basejump.github.com/</id>
   <author>
     <name><![CDATA[Joshua Burnett]]></name>
@@ -18,7 +18,13 @@
     <link href="http://basejump.github.com/blog/2012/03/23/logging-exceptions-with-grails-executor-plugin/"/>
     <updated>2012-03-23T18:35:00-05:00</updated>
     <id>http://basejump.github.com/blog/2012/03/23/logging-exceptions-with-grails-executor-plugin</id>
-    <content type="html"><![CDATA[<p>This is my test blog post</p>
+    <content type="html"><![CDATA[<h2>Why?</h2>
+
+<p>... why not?</p>
+
+<h2>How?</h2>
+
+<p>override the ..??</p>
 ]]></content>
   </entry>
   
