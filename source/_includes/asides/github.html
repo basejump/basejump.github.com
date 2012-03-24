@@ -1,12 +1,13 @@
 {% if site.github_user %}
 <section>
-  <h1>GitHub Repos</h1>
+  <h3>GitHub Repos - <a href="https://github.com/{{site.github_user}}">@{{site.github_user}}</a></h3>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
-  {% if site.github_show_profile_link %}
-  <a href="https://github.com/{{site.github_user}}">@{{site.github_user}}</a> on GitHub
-  {% endif %}
+  <h3>GitHub Repos - <a href="https://github.com/9ci">@9ci</a></h3>
+  <ul id="gh_repos2">
+      <li class="loading">Status updating...</li>
+    </ul>
   <script type="text/javascript">
     $.domReady(function(){
         if (!window.jXHR){
@@ -22,6 +23,12 @@
             count: {{site.github_repo_count}},
             skip_forks: {{site.github_skip_forks}},
             target: '#gh_repos'
+        });
+        github.showRepos({
+            user: '9ci',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos2'
         });
     });
   </script>
